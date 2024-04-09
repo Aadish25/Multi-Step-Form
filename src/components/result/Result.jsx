@@ -37,9 +37,10 @@ export default function Result() {
           <h1 className="text-3xl font-bold">
             Learning paths based on your answers
           </h1>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 mb-5">
             Choose one to get started. You can switch anytime.
           </p>
+
           <div className="flex flex-col  md:flex-row gap-2">
             {pathArr.map((item, index) => {
               return (
